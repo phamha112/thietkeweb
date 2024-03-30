@@ -1,0 +1,17 @@
+div { width:560px;
+      font-family: "roboto slab", serif;}
+h1{ color:rgb(19, 151, 151);
+    width:560px}
+p.nghieng{ font-weight: bold;
+    font-style: italic;}
+h2{font-family: sans-serif;
+    color: white;
+    background-color: rgb(66, 189, 189);
+width: 560px;}
+a:link { text-emphasis: none;}
+a:hover{ color:rgb(228, 228, 19);}
+ul.a {list-style-position: outside;}
+img{width: 560px;
+    height: 400px;
+    background-color:rgb (194, 186, 186) ;}
+.center { text-align: center;}
