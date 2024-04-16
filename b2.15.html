@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bài 2</title>
+    <style>
+        a.chu{
+            position:relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-size: 30px;
+            color:rgb(235, 26, 26);
+        }
+        a.chu::after{
+            content:'';
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:0%;
+            height:3px;
+            background-color: rgb(36, 230, 236);
+            transition:0.4s;
+        
+        }
+        a.chu:hover::after{
+            width:100%;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <a href="" class="chu">
+        <span>bài tập 2 buổi 15</span>
+    </a>
+</body>
+</html>
