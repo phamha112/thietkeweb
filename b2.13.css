@@ -1,0 +1,23 @@
+ul{list-style: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+    background-color: rgb(118,115,115);
+    overflow:hidden;
+    position:fixed;
+    top:0%}
+ul li{float:left;
+      border-right:1px solid#bbb;}    
+ ul li a{text-decoration: none;
+         display: block;
+         padding: 14px 16px;
+         text-align: center;
+         color: white;}   
+ ul li a.active{background-color: rgb(10,124,59);} 
+ body{margin: 0;}   
+ul li:last-child:right{border-right: none;
+float:right;}
+div{margin-top: 20px;
+margin-left: 15px;
+padding: 2px 15px;
+height: 1000px;}
